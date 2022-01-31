@@ -5,7 +5,7 @@ List<CategorieModel> getCategories(){
   List<CategorieModel> myCategories = List<CategorieModel>();
   CategorieModel categorieModel;
 
-  //1
+  // number1
   categorieModel = new CategorieModel();
   categorieModel.categorieName = "Business";
   categorieModel.imageAssetUrl = "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80";
