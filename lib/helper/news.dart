@@ -24,8 +24,8 @@ class News {
             title: element['title'],
             author: element['author'],
             description: element['description'],
-            urlToImage: element['urlToImage'],
             publshedAt: DateTime.parse(element['publishedAt']),
+            urlToImage: element['urlToImage'],
             content: element["content"],
             articleUrl: element["url"],
           );
