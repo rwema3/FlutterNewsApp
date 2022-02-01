@@ -66,9 +66,8 @@ class NewsForCategorie {
             articleUrl: element["url"],
             description: element['description'],
             urlToImage: element['urlToImage'],
-            content: element["content"],
             publshedAt: DateTime.parse(element['publishedAt']),
-
+            content: element["content"],
 
           );
           news.add(article);
