@@ -63,11 +63,12 @@ class NewsForCategorie {
 
             author: element['author'],
             title: element['title'],
+            articleUrl: element["url"],
             description: element['description'],
             urlToImage: element['urlToImage'],
             publshedAt: DateTime.parse(element['publishedAt']),
             content: element["content"],
-            articleUrl: element["url"],
+
           );
           news.add(article);
         }
