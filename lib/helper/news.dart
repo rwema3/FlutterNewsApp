@@ -60,8 +60,9 @@ class NewsForCategorie {
 
         if(element['urlToImage'] != null && element['description'] != null){
           Article article = Article(
-            title: element['title'],
+
             author: element['author'],
+            title: element['title'],
             description: element['description'],
             urlToImage: element['urlToImage'],
             publshedAt: DateTime.parse(element['publishedAt']),
