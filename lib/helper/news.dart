@@ -48,7 +48,7 @@ class NewsForCategorie {
 
   Future<void> getNewsForCategory(String category) async{
 
-    /*String = "htt//originigt/r/evy$atgoryasc&apiApi=${apie-Key}";*/
+    /*String = "htt//originigt/r/evy$atgasc&apiApi=${apie-Key}";*/
     String url = "http://newsapi.org/v2/top-headlines?country=in&category=$category&apiKey=${apiKey}";
 
     var response = await http.get(url);
