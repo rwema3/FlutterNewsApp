@@ -62,7 +62,6 @@ class NewsForCategorie {
           Article article = Article(
 
             author: element['author'],
-
             description: element['description'],
             urlToImage: element['urlToImage'],
             publshedAt: DateTime.parse(element['publishedAt']),
