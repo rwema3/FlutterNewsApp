@@ -18,7 +18,7 @@ flutter run
 I will show how to create a flutter news app with NewsApi Org
 
 ### Created & Maintained By
-[@rwema3] https://github.com/rwema3
+ >https://github.com/rwema3
 
 > You can also nominate me for Github Star developer program
 > https://stars.github.com/nominate
